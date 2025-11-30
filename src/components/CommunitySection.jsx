@@ -10,7 +10,7 @@ const CommunitySection = () => {
               <img 
                 src="/community.jpg" 
                 alt="Good Company Yoga community gathering" 
-                className="w-full h-full object-cover rounded-xl border-[2px] border-[#6A3A78]"
+                className="w-full h-full object-cover rborder-[2px] border-[#6A3A78]"
               />
             </div>
           </div>

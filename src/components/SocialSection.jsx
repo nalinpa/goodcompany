@@ -30,7 +30,7 @@ const SocialSection = () => {
               <img 
                 src="/social.jpg" 
                 alt="Social yoga at Good Company" 
-                className="w-full h-full object-cover rounded-xl border-[2px] border-[#6A3A78]"
+                className="w-full h-full object-cover border-[2px] border-[#6A3A78]"
               />
             </div>
           </div>
