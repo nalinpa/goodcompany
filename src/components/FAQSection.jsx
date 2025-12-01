@@ -26,7 +26,7 @@ const FAQSection = () => {
   ];
 
   return (
-    <div id="faqs" className="py-32 bg-white">
+    <div id="faqs" className="py-32 bg-white" style={{ backgroundColor: '#FFF8F3' }}>
       <div className="max-w-4xl mx-auto px-6">
         <h2 className="text-5xl md:text-6xl font-bold mb-16 text-center" style={{ color: '#6A3A78', fontFamily: 'Courier Prime, monospace' }}>
           FAQs

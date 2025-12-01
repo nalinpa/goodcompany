@@ -11,7 +11,7 @@ const ClassesSection = () => {
     },
     {
       name: "Stretch & Sip Sundays",
-      description: "Slow, floor-based movement to ease tension and soften the edges of your day. Think deep breaths, low lights, calm music — and if you fancy, a glass of wine after.",
+      description: "Slow, floor-based movement to ease tension and soften the edges of your day. Think deep breaths, low lights, calm music — and, if you fancy, a coffee after.",
       time: "10 - 11 @ Thistle Hall (293 Cuba Street)",
       image: "sunday.jpg"
     }

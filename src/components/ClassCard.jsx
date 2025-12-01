@@ -7,7 +7,7 @@ const ClassCard = ({ name, description, time, image }) => {
         <img 
           src={`/${image}`} 
           alt={name} 
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover object-[5%_30%]"
         />
       </div>
       <h3 className="text-2xl font-bold mb-2" style={{ color: '#6A3A78' }}>{name}</h3>

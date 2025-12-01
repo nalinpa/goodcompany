@@ -1,9 +1,8 @@
 import React from 'react';
 import SocialSection from '../components/SocialSection';
-import CommunitySection from '../components/CommunitySection';
-import WhySection from '../components/WhySection';
 import CTA from '../components/CTA';
 import TeachersSection from '../components/TeachersSection';
+import FAQSection from '../components/FAQSection';
 
 const About = () => {
   return (
@@ -23,12 +22,13 @@ const About = () => {
       </div>
 
       <SocialSection />
-      
-      <CommunitySection />
 
       <TeachersSection />      
 
       <CTA />
+
+      <FAQSection />
+      
     </div>
   );
 };

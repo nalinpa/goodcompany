@@ -64,7 +64,7 @@ const Classes = () => {
             Classes & Pricing
           </h1>
           <p className="text-2xl text-white/90">
-            Find your perfect practice and book your spot
+            Your weekly Good Company
           </p>
         </div>
       </div>
@@ -75,8 +75,6 @@ const Classes = () => {
         content={content}
         editableProps={editableProps}
       />
-
-      <CTA />
 
     </div>
   );

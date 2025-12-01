@@ -29,8 +29,8 @@ const Footer = ({ onShowLogin }) => {
           <div>
             <h4 className="font-semibold mb-4 text-lg" style={{ color: '#E2A9F1' }}>Connect</h4>
             <div className="space-y-3 text-gray-400">
-              <p>📧 hello@goodcompanyyoga.co.nz</p>
-              <p>📱 Instagram @goodcompanyyoga</p>
+              <p>📧 <a href="mailto:hello@goodcompanyyoga.co.nz">hello@goodcompanyyoga.co.nz</a></p>
+              <p>📱 <a href="https://instagram.com/goodcompanyyogawelly">Instagram @goodcompanyyoga</a></p>
               <p>📍 Wellington Central</p>
             </div>
           </div>

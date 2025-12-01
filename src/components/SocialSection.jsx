@@ -18,10 +18,6 @@ const SocialSection = () => {
                 People who want connection as much as movement.
                 People who like community that feels casual, warm, and a little bit addictive.
               </p>
-              <p>
-                It’s yoga — but with friends you haven’t met yet.
-                It’s good movement, good energy, and genuinely good company.
-              </p>
             </div>
           </div>
           
