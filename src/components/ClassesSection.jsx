@@ -11,7 +11,7 @@ const ClassesSection = () => {
     },
     {
       name: "Stretch & Sip Sundays",
-      description: "Slow, floor-based movement to ease tension and soften the edges of your day. Think deep breaths, low lights, calm music — and, if you fancy, a coffee after.",
+      description: "Easygoing Sunday movement with friendly people and zero pressure. We balance ease and a bit of challenge on the mat, and then wander out for a post-class coffee. A weekend ritual worth keeping.",
       time: "10 - 11 @ Thistle Hall (293 Cuba Street)",
       image: "sunday.jpg"
     }
