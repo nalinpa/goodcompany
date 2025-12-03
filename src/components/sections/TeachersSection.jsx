@@ -1,7 +1,5 @@
 import React from 'react';
 
-import OptimizedImage from '../ui/OptimizedImage';
-
 const TeachersSection = ({ content, editableProps }) => {
   return (
     <>
@@ -36,7 +34,7 @@ const TeachersSection = ({ content, editableProps }) => {
             </div>
             <div>
               <div className="rounded-xl overflow-hidden border-8 border-[#E2A9F1]" style={{ height: '500px' }}>
-                <OptimizedImage
+                <img
                   src="/veena.webp"
                   alt="Veena Patel - Yoga Teacher"
                   className="w-full h-full object-cover object-top border-[2px] border-[#6A3A78]"
@@ -49,7 +47,7 @@ const TeachersSection = ({ content, editableProps }) => {
           <div className="grid md:grid-cols-2 gap-20 items-center mb-32">
             <div className="order-2 md:order-1">
               <div className="rounded-xl overflow-hidden border-8 border-[#E2A9F1]" style={{ height: '500px' }}>
-                <OptimizedImage
+                <img
                   src="/rachael.webp"
                   alt="Rachael Fleming - Yoga Teacher"
                   className="w-full h-full object-cover object-top border-[2px] border-[#6A3A78]"

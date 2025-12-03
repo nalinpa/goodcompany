@@ -1,6 +1,5 @@
 import React from 'react';
 import EditableBlock from '../ui/EditableBlock';
-import OptimizedImage from '../ui/OptimizedImage';
 import { useNavigate } from "react-router-dom";
 
 const Hero = ({ content, scrollToSection, editableProps }) => {
@@ -45,7 +44,7 @@ const Hero = ({ content, scrollToSection, editableProps }) => {
       {/* Hero Image Placeholder */}
       <div className="max-w-6xl mx-auto px-6 pb-16">
         <div className="rounded-xl overflow-hidden" style={{ height: '400px' }}>
-          <OptimizedImage
+          <img
             src="/hero.webp"
             alt="Good Company Yoga class"
             className="w-full h-full  object-cover"

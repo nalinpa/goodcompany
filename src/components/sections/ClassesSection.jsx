@@ -7,13 +7,13 @@ const ClassesSection = () => {
       name: "Good Company Thursdays",
       description: "This is yoga with personality — inclusive, fun and never too serious. You’ll move, sweat, and have a laugh with a room full of good people. And when we’re done, we wander out for a wine.",
       time: "5.30 - 6.30 @ Toi Poneke (61/69 Abel Smith Street)",
-      image: "thursday.jpg"
+      image: "thursday.webp"
     },
     {
       name: "Stretch & Sip Sundays",
       description: "Easygoing Sunday movement with friendly people and zero pressure. We balance ease and a bit of challenge on the mat, and then wander out for a post-class coffee. A weekend ritual worth keeping.",
       time: "10 - 11 @ Thistle Hall (293 Cuba Street)",
-      image: "sunday.jpg"
+      image: "sunday.webp"
     }
   ];
 

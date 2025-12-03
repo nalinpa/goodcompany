@@ -1,5 +1,4 @@
 import React from 'react';
-import OptimizedImage from '../ui/OptimizedImage';
 
 import EditableBlock from '../ui/EditableBlock';
 
@@ -23,7 +22,7 @@ const AboutSection = ({ content, editableProps }) => {
           </div>
           <div>
             <div className="rounded-xl overflow-hidden border-8 border-[#E2A9F1]" style={{ height: '500px' }}>
-              <OptimizedImage
+              <img
                 src="/vibe.webp"
                 alt="Good Company Yoga community gathering"
                 className="w-full h-full object-cover border-[2px] border-[#6A3A78]"
