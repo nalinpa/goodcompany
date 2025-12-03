@@ -11,7 +11,7 @@ const ClassCard = ({ name, description, time, image }) => {
         />
       </div>
       <h3 className="text-2xl font-bold mb-2" style={{ color: '#6A3A78' }}>{name}</h3>
-      <p className="text-sm font-medium mb-3" style={{ color: '#F48A71' }}>{time}</p>
+      <p className="text-lg font-bold mb-3" style={{ color: '#F48A71' }}>{time}</p>
       <p className="leading-relaxed" style={{ color: '#2D2D2D' }}>{description}</p>
     </div>
   );
