@@ -1,5 +1,5 @@
 import React from 'react';
-import ClassCard from './ClassCard';
+import ClassCard from '../ui/ClassCard';
 
 const ClassesSection = () => {
   const classes = [

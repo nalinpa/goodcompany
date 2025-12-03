@@ -1,8 +1,8 @@
 import React from 'react';
-import SocialSection from '../components/SocialSection';
-import CTA from '../components/CTA';
-import TeachersSection from '../components/TeachersSection';
-import FAQSection from '../components/FAQSection';
+import SocialSection from '../components/sections/SocialSection';
+import CTA from '../components/sections/CTA';
+import TeachersSection from '../components/sections/TeachersSection';
+import FAQSection from '../components/sections/FAQSection';
 
 const About = () => {
   return (

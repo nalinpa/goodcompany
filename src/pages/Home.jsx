@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Hero from '../components/Hero';
-import AboutSection from '../components/AboutSection';
-import CTA from '../components/CTA';
+import Hero from '../components/sections/Hero';
+import AboutSection from '../components/sections/AboutSection';
+import CTA from '../components/sections/CTA';
 
 const Home = () => {
   const defaultContent = {

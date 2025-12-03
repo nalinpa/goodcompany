@@ -1,5 +1,5 @@
 import React from 'react';
-import FAQItem from './FAQItem';
+import FAQItem from '../ui/FAQItem';
 
 const FAQSection = () => {
   const faqs = [

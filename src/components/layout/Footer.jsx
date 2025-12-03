@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { memo } from 'react';
 import { Link } from 'react-router-dom';
 
-const Footer = ({ onShowLogin }) => {
+const Footer = memo(({ onShowLogin }) => {
   return (
     <footer className="py-16 text-white" style={{ backgroundColor: '#2D2D2D' }}>
       <div className="max-w-6xl mx-auto px-6">
@@ -41,6 +41,8 @@ const Footer = ({ onShowLogin }) => {
       </div>
     </footer>
   );
-};
+});
+
+Footer.displayName = 'Footer';
 
 export default Footer;

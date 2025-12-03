@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import ClassesSection from '../components/ClassesSection';
-import PricingSection from '../components/PricingSection';
-import CTA from '../components/CTA';
+import ClassesSection from '../components/sections/ClassesSection';
+import PricingSection from '../components/sections/PricingSection';
 
 const Classes = () => {
   const defaultContent = {

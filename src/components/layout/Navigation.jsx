@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { memo } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { LogOut, Menu, X as CloseIcon } from 'lucide-react';
 import { useNavigate } from "react-router-dom";
 
-const Navigation = ({ 
+const Navigation = memo(({ 
   isLoggedIn, 
   mobileMenuOpen, 
   setMobileMenuOpen, 
@@ -139,6 +139,8 @@ const Navigation = ({
       )}
     </>
   );
-};
+});
+
+Navigation.displayName = 'Navigation';
 
 export default Navigation;

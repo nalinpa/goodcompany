@@ -1,12 +1,13 @@
 import React from 'react';
+import OptimizedImage from './OptimizedImage';
 
 const ClassCard = ({ name, description, time, image }) => {
   return (
     <div className="group">
       <div className="rounded-xl overflow-hidden mb-6 transition-transform hover:scale-105 border-2" style={{ height: '280px', borderColor: '#E2A9F1' }}>
-        <img 
-          src={`/${image}`} 
-          alt={name} 
+        <OptimizedImage
+          src={`/${image}`}
+          alt={name}
           className="w-full h-full object-cover object-[5%_30%]"
         />
       </div>

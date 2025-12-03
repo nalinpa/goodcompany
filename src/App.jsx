@@ -1,12 +1,21 @@
-import React, { useState } from 'react';
+import React, { useState, lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navigation from './components/Navigation';
-import Footer from './components/Footer';
-import LoginModal from './components/LoginModal';
-import ScrollToTop from './components/ScrollToTop';
-import Home from './pages/Home';
-import About from './pages/About';
-import Classes from './pages/Classes';
+import Navigation from './components/layout/Navigation';
+import Footer from './components/layout/Footer';
+import LoginModal from './components/ui/LoginModal';
+import ScrollToTop from './components/layout/ScrollToTop';
+
+// Lazy load pages - ADD THESE LINES
+const Home = lazy(() => import('./pages/Home'));
+const About = lazy(() => import('./pages/About'));
+const Classes = lazy(() => import('./pages/Classes'));
+
+// Simple loading component - ADD THIS
+const PageLoader = () => (
+  <div className="flex items-center justify-center min-h-screen">
+    <div className="text-2xl" style={{ color: '#6A3A78' }}>Loading...</div>
+  </div>
+);
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(() => {
@@ -60,12 +69,14 @@ const App = () => {
           scrollToSection={scrollToSection}
           onLogout={handleLogout}
         />
-
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/classes" element={<Classes />} />
-        </Routes>
+        
+        <Suspense fallback={<PageLoader />}>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/classes" element={<Classes />} />
+          </Routes>
+        </Suspense>
 
         <Footer
           scrollToSection={scrollToSection}
