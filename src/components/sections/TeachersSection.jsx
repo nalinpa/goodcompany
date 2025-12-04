@@ -35,7 +35,7 @@ const TeachersSection = ({ content, editableProps }) => {
             <div>
               <div className="rounded-xl overflow-hidden border-8 border-[#E2A9F1]" style={{ height: '500px' }}>
                 <img
-                  src="/veena.webp"
+                  src="/veena.jpg"
                   alt="Veena Patel - Yoga Teacher"
                   className="w-full h-full object-cover object-top border-[2px] border-[#6A3A78]"
                 />
@@ -48,7 +48,7 @@ const TeachersSection = ({ content, editableProps }) => {
             <div className="order-2 md:order-1">
               <div className="rounded-xl overflow-hidden border-8 border-[#E2A9F1]" style={{ height: '500px' }}>
                 <img
-                  src="/rachael.webp"
+                  src="/rachael.jpg"
                   alt="Rachael Fleming - Yoga Teacher"
                   className="w-full h-full object-cover object-top border-[2px] border-[#6A3A78]"
                 />

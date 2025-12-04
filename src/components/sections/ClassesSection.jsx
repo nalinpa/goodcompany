@@ -7,13 +7,13 @@ const ClassesSection = () => {
       name: "Good Company Thursdays (PM)",
       description: "This is yoga with personality — inclusive, fun and never too serious. You’ll move, sweat, and have a laugh with a room full of good people. And when we’re done, we wander out for a wine.",
       time: "5.30 - 6.30pm @ Toi Poneke (61/69 Abel Smith Street)",
-      image: "thursday.webp"
+      image: "thursday.jpg"
     },
     {
       name: "Stretch & Sip Sundays (AM)",
       description: "Easygoing Sunday movement with friendly people and zero pressure. We balance ease and a bit of challenge on the mat, and then wander out for a post-class coffee. A weekend ritual worth keeping.",
       time: "10 - 11am @ Thistle Hall (293 Cuba Street)",
-      image: "sunday.webp"
+      image: "sunday.jpg"
     }
   ];
 
@@ -52,7 +52,7 @@ const ClassesSection = () => {
         
  <div className="bg-white p-12 rounded-2xl mx-auto mt-12 px-6 text-center shadow-lg border-4" style={{ borderColor: '#E2A9F1' }}>
          <div className="text-2xl leading-relaxed whitespace-pre-line mb-10">
-          <p>Book a popup class now for $15</p>
+          <p>Join a popup class now for $15</p>
           </div>
            <button 
          className="px-5 py-3 

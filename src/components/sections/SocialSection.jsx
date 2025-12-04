@@ -24,7 +24,7 @@ const SocialSection = () => {
           <div>
             <div className="rounded-xl overflow-hidden border-8 border-[#E2A9F1" style={{ height: "500px" }}>
               <img 
-                src="/social.webp" 
+                src="/social.jpg" 
                 alt="Social yoga at Good Company" 
                 className="w-full h-full object-cover border-[2px] border-[#6A3A78]"
               />

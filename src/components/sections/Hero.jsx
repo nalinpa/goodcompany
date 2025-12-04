@@ -45,7 +45,7 @@ const Hero = ({ content, scrollToSection, editableProps }) => {
       <div className="max-w-6xl mx-auto px-6 pb-16">
         <div className="rounded-xl overflow-hidden" style={{ height: '400px' }}>
           <img
-            src="/hero.webp"
+            src="/hero.jpg"
             alt="Good Company Yoga class"
             className="w-full h-full  object-cover"
             objectFit="cover"
