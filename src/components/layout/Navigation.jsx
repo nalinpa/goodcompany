@@ -1,7 +1,6 @@
 import React, { memo } from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { LogOut, Menu, X as CloseIcon } from 'lucide-react';
-import { useNavigate } from "react-router-dom";
 
 const Navigation = memo(({ 
   isLoggedIn, 
@@ -9,7 +8,6 @@ const Navigation = memo(({
   setMobileMenuOpen, 
   onLogout 
 }) => {
-  const location = useLocation();
   const navigate = useNavigate();
 
   return (
