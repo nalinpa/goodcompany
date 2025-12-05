@@ -1,7 +1,9 @@
 import React from 'react';
+import { useLocation } from 'react-router-dom';
 import ClassCard from '../ui/ClassCard';
 
 const ClassesSection = () => {
+  const navigate = useLocation();
   const classes = [
     {
       name: "Good Company Thursdays (PM)",
@@ -54,7 +56,7 @@ const ClassesSection = () => {
          <div className="text-2xl leading-relaxed whitespace-pre-line mb-10">
           <p>Join a popup class now for $15</p>
           </div>
-           <button 
+           <button  
          className="px-5 py-3 
                     rounded-xl 
                     font-semibold 
