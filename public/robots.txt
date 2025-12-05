@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://goodcompanyyoga.vercel.app/sitemap.xml
+Sitemap: https://goodcompanyyoga.co.nz/sitemap.xml
