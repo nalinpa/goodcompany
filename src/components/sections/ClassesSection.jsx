@@ -1,9 +1,9 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import ClassCard from '../ui/ClassCard';
 
 const ClassesSection = () => {
-  const navigate = useLocation();
+  const navigate = useNavigate();
   const classes = [
     {
       name: "Good Company Thursdays (PM)",
